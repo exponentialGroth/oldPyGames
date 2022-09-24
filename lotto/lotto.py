@@ -102,11 +102,11 @@ RANDOM_WHEEL_IMAGE = pygame.image.load("images\\random_wheel.png")
 RANDOM_WHEEL = pygame.transform.scale(RANDOM_WHEEL_IMAGE, (360,360))
 RANDOM_WHEEL_RECT = RANDOM_WHEEL.get_rect(center = (360,360))
 
-WHEEL_OF_FORTUNE_SURROUNDING_IMAGE = pygame.image.load("images\\wheel_of_fortune_umhüllung.png")
+WHEEL_OF_FORTUNE_SURROUNDING_IMAGE = pygame.image.load("images\\wheel_of_fortune_surrounding.png")
 WHEEL_OF_FORTUNE_SURROUNDING = pygame.transform.scale(WHEEL_OF_FORTUNE_SURROUNDING_IMAGE, (423,491))
 WHEEL_OF_FORTUNE_SURROUNDING_RECT = WHEEL_OF_FORTUNE_SURROUNDING.get_rect(center = (366,401))
 
-ZEIGER_GLÜCKSRAD_IMAGE = pygame.image.load("images\\zeiger_glücksrad_skaliert.png")
+ZEIGER_GLÜCKSRAD_IMAGE = pygame.image.load("images\\pointer.png")
 
 GELDSCHEINSYMBOL_IMAGE = pygame.image.load("images\\money.png")
 GELDSCHEINSYMBOL = pygame.transform.scale(GELDSCHEINSYMBOL_IMAGE, (65,50))
